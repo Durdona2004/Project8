@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 50%;
+    height: 70%;
+    background-color: green;  
+    position: relative;
+    
+
+}
+.box::after{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    background-color:transparent;
+    border: 2px solid white;
+
+}
+.box::before{
+    position: absolute;
+    content: '';
+    width: 13%;
+    height: 35%;
+    border: 2px solid white;
+    border-left: transparent;
+    top:33%;
+    left: 10%;
+}
+.minibox::after{
+    position: absolute;
+    content: '';
+    width: 13%;
+    height: 35%;
+    border: 2px solid white;
+    border-right: transparent;
+    top:33%;
+    right: 10%;
+
+}
+.minibox::before{
+    position: absolute;
+    content: '';
+    width: 20%;
+    height: 25%;
+    border: 2px solid white;
+    border-radius: 50%;
+    top:40%;
+    left: 41%;
+    
+}
+.minibox2::after{
+    position: absolute;
+    content: '';
+    width: 1%;
+    height: 80%;
+    border: 2px solid white;
+    border-left: transparent;
+    left: 50%;
+    top: 10%;
+
+}
+.minibox2::before{
+    position: absolute;
+    content: '';
+    width: 4%;
+    height: 15%;
+    border: 2px solid white;
+    border-left: transparent;
+    top:43%;
+    left: 10%;
+
+}
+.minibox3::after{
+    position: absolute;
+    content: '';
+    width: 4%;
+    height: 15%;
+    border: 2px solid white;
+    border-right: transparent;
+    top:43%;
+    right: 10%;
+}
+.minibox3::before{
+    position: absolute;
+    content: '';
+    width: 2%;
+    height: 10%;
+    border: 2px solid white;
+    border-right: transparent;
+    top:46%;
+    left: 8%;
+
+}
+.minibox4::after{
+    position: absolute;
+    content: '';
+    width: 1.8%;
+    height: 10%;
+    border: 2px solid white;
+    border-left: transparent;
+    top:46%;
+    right: 8%;
+
+}
+.minibox4::before{
+    position: absolute;
+    content: '';
+    width: 15%;
+    height: 20%;
+    border: 2px solid white;
+    border-radius: 50%;
+    top:40%;
+    left: 11%;
+    
+}
+.minibox5::before{
+    position: absolute;
+    content: '';
+    width: 15%;
+    height: 20%;
+    border: 2px solid white;
+    border-radius: 50%;
+    top:40%;
+    right: 11%;
+}
+.minibox6{
+    position: absolute;
+    content: '';
+}
